@@ -1,0 +1,30 @@
+body {
+background-image: url(eurodolar.jpg);
+background-size: cover;
+background-position: center;
+background-image: linear-gradient(
+rgba(0, 0, 0, 0.562),
+rgba(0, 0, 0, 0.562)
+), url("eurodolar.jpg");
+}
+    
+h1 {
+color: black;
+font-family: times new roman;
+font-size: 65px;
+text-align: center;
+text-decoration: underline;
+}
+
+p {
+color: white;
+text-align: center;
+font-size: 36px;
+font-weight: bold;
+}
+
+h2 {
+color: white;
+text-align: center;
+font-size: 30px;
+}

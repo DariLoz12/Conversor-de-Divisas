@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Divisas</title>
+</head>
+<body>
+    <h1>Conversor de Divisas</h1>
+    <p>Tipos de cambio en tiempo real</p>
+
+    <center>
+    <p>Cantidad a convertir</p>
+    <input type="number" id="cantidad" placeholder="Cantidad" min="0">
+    </center>
+
+    <center>
+    <p>Desde</p>
+    <select id="desdedivisa">
+        <option value="USD">U$D - Dólar Estadounidense</option>
+        <option value="EUR">EUR - Euros</option>
+    </select>
+    </center>
+
+    <center>
+    <p>Hasta</p>
+    <select id="hastadivisa">
+        <option value="USD">U$D - Dólar Estadounidense</option>
+        <option value="EUR">EUR - Euros</option>
+    </select>
+    </center>
+
+    <center>
+    <br><br>
+    <button id="botonconvertir">CONVERTIR</button>
+    </center>
+    
+    <h2 id="resultado">Esperando conversión...</h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
